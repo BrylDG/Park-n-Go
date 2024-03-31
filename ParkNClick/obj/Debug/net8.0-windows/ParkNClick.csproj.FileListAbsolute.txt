@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\ParkNClick\ParkNClick\bin\Debug\net8.0-windows\ParkNClick.exe
+C:\Users\User\source\repos\ParkNClick\ParkNClick\bin\Debug\net8.0-windows\ParkNClick.deps.json
+C:\Users\User\source\repos\ParkNClick\ParkNClick\bin\Debug\net8.0-windows\ParkNClick.runtimeconfig.json
+C:\Users\User\source\repos\ParkNClick\ParkNClick\bin\Debug\net8.0-windows\ParkNClick.dll
+C:\Users\User\source\repos\ParkNClick\ParkNClick\bin\Debug\net8.0-windows\ParkNClick.pdb
+C:\Users\User\source\repos\ParkNClick\ParkNClick\obj\Debug\net8.0-windows\ParkNClick.Login.resources
+C:\Users\User\source\repos\ParkNClick\ParkNClick\obj\Debug\net8.0-windows\ParkNClick.csproj.GenerateResource.cache
+C:\Users\User\source\repos\ParkNClick\ParkNClick\obj\Debug\net8.0-windows\ParkNClick.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ParkNClick\ParkNClick\obj\Debug\net8.0-windows\ParkNClick.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ParkNClick\ParkNClick\obj\Debug\net8.0-windows\ParkNClick.AssemblyInfo.cs
+C:\Users\User\source\repos\ParkNClick\ParkNClick\obj\Debug\net8.0-windows\ParkNClick.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ParkNClick\ParkNClick\obj\Debug\net8.0-windows\ParkNClick.dll
+C:\Users\User\source\repos\ParkNClick\ParkNClick\obj\Debug\net8.0-windows\refint\ParkNClick.dll
+C:\Users\User\source\repos\ParkNClick\ParkNClick\obj\Debug\net8.0-windows\ParkNClick.pdb
+C:\Users\User\source\repos\ParkNClick\ParkNClick\obj\Debug\net8.0-windows\ParkNClick.genruntimeconfig.cache
+C:\Users\User\source\repos\ParkNClick\ParkNClick\obj\Debug\net8.0-windows\ref\ParkNClick.dll
+C:\Users\User\source\repos\ParkNClick\ParkNClick\obj\Debug\net8.0-windows\ParkNClick.Dashboard.resources
