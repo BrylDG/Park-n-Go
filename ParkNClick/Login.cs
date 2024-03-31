@@ -5,30 +5,30 @@ namespace ParkNClick
 {
     public partial class Login : Form
     {
-        Dashboard dashboard;
+        DashboardMenu dashboard;
 
         public Login()
         {
             InitializeComponent();
-            dashboard = new Dashboard();
+            dashboard = new DashboardMenu(this);
         }
 
         private void login()
         {
             if (string.IsNullOrEmpty(UsernameBox.Text) && string.IsNullOrEmpty(PasswordBox.Text) || UsernameBox.Text != "admin" && PasswordBox.Text != "admin")
             {
-                ErrorLabel.Text = "Missing/Invalid Username and Password";
-                ResetLabelAfterDelay(ErrorLabel);
+                ErrorLabel.Text = "Missing / Invalid Username and Password";
+                ResetLabel(ErrorLabel);
             }
             else if (UsernameBox.Text != "admin")
             {
                 UserErrorLabel.Text = "Invalid Username";
-                ResetLabelAfterDelay(UserErrorLabel);
+                ResetLabel(UserErrorLabel);
             }
             else if (PasswordBox.Text != "admin")
             {
                 PassErrorLabel.Text = "Invalid Password";
-                ResetLabelAfterDelay(PassErrorLabel);
+                ResetLabel(PassErrorLabel);
             }
             else
             {
@@ -36,7 +36,7 @@ namespace ParkNClick
                 this.Hide();
             }
         }
-        private void ResetLabelAfterDelay(Label label)
+        private void ResetLabel(Label label)
         {
             System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
             timer.Interval = 5000;
@@ -50,7 +50,7 @@ namespace ParkNClick
         }
 
         private void ExitButton_Click(object sender, EventArgs e)
-        { 
+        {
             Application.Exit();
         }
         private void EnterButton_Click(object sender, EventArgs e)
@@ -60,6 +60,11 @@ namespace ParkNClick
         private void button1_Click(object sender, EventArgs e)
         {
             login();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
