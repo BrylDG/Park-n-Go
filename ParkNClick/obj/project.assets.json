@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Bryl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\ParkNClick\\ParkNClick\\ParkNClick.csproj",
+      "projectUniqueName": "C:\\Users\\Bryl\\Downloads\\Park-n-Go-main\\Park-n-Go-main\\ParkNClick\\ParkNClick.csproj",
       "projectName": "ParkNClick",
-      "projectPath": "C:\\Users\\User\\source\\repos\\ParkNClick\\ParkNClick\\ParkNClick.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\ParkNClick\\ParkNClick\\obj\\",
+      "projectPath": "C:\\Users\\Bryl\\Downloads\\Park-n-Go-main\\Park-n-Go-main\\ParkNClick\\ParkNClick.csproj",
+      "packagesPath": "C:\\Users\\Bryl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bryl\\Downloads\\Park-n-Go-main\\Park-n-Go-main\\ParkNClick\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bryl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

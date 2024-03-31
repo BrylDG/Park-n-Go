@@ -46,24 +46,25 @@
             // 
             // UsernameBox
             // 
-            UsernameBox.BackColor = Color.FromArgb(0, 51, 86);
+            UsernameBox.BackColor = Color.FromArgb(51, 68, 113);
             UsernameBox.BorderStyle = BorderStyle.None;
             UsernameBox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             UsernameBox.ForeColor = Color.White;
             UsernameBox.Location = new Point(3, 3);
             UsernameBox.Name = "UsernameBox";
-            UsernameBox.Size = new Size(292, 22);
+            UsernameBox.Size = new Size(231, 22);
             UsernameBox.TabIndex = 0;
             // 
             // LoginButton
             // 
-            LoginButton.BackColor = Color.FromArgb(0, 41, 69);
+            LoginButton.BackColor = Color.Gainsboro;
             LoginButton.FlatAppearance.BorderSize = 0;
             LoginButton.FlatStyle = FlatStyle.Flat;
-            LoginButton.ForeColor = Color.White;
-            LoginButton.Location = new Point(160, 390);
+            LoginButton.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            LoginButton.ForeColor = Color.Black;
+            LoginButton.Location = new Point(117, 347);
             LoginButton.Name = "LoginButton";
-            LoginButton.Size = new Size(80, 30);
+            LoginButton.Size = new Size(56, 21);
             LoginButton.TabIndex = 2;
             LoginButton.Text = "Log In";
             LoginButton.UseVisualStyleBackColor = false;
@@ -71,42 +72,42 @@
             // 
             // UsernamePanel
             // 
-            UsernamePanel.BackColor = Color.FromArgb(0, 51, 86);
+            UsernamePanel.BackColor = Color.FromArgb(51, 68, 113);
             UsernamePanel.BorderStyle = BorderStyle.FixedSingle;
             UsernamePanel.Controls.Add(UsernameBox);
             UsernamePanel.ForeColor = Color.NavajoWhite;
-            UsernamePanel.Location = new Point(47, 245);
+            UsernamePanel.Location = new Point(26, 206);
             UsernamePanel.Name = "UsernamePanel";
-            UsernamePanel.Size = new Size(300, 30);
+            UsernamePanel.Size = new Size(239, 30);
             UsernamePanel.TabIndex = 0;
             // 
             // PasswordPanel
             // 
-            PasswordPanel.BackColor = Color.FromArgb(0, 51, 86);
+            PasswordPanel.BackColor = Color.FromArgb(51, 68, 113);
             PasswordPanel.BorderStyle = BorderStyle.FixedSingle;
             PasswordPanel.Controls.Add(PasswordBox);
             PasswordPanel.ForeColor = Color.NavajoWhite;
-            PasswordPanel.Location = new Point(50, 320);
+            PasswordPanel.Location = new Point(26, 281);
             PasswordPanel.Name = "PasswordPanel";
-            PasswordPanel.Size = new Size(300, 30);
+            PasswordPanel.Size = new Size(239, 30);
             PasswordPanel.TabIndex = 1;
             // 
             // PasswordBox
             // 
-            PasswordBox.BackColor = Color.FromArgb(0, 51, 86);
+            PasswordBox.BackColor = Color.FromArgb(51, 68, 113);
             PasswordBox.BorderStyle = BorderStyle.None;
             PasswordBox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             PasswordBox.ForeColor = Color.White;
             PasswordBox.Location = new Point(3, 3);
             PasswordBox.Name = "PasswordBox";
             PasswordBox.PasswordChar = '•';
-            PasswordBox.Size = new Size(292, 22);
+            PasswordBox.Size = new Size(232, 22);
             PasswordBox.TabIndex = 1;
             // 
             // ExitButton
             // 
             ExitButton.BackColor = Color.Transparent;
-            ExitButton.Location = new Point(51, 12);
+            ExitButton.Location = new Point(2, 2);
             ExitButton.Name = "ExitButton";
             ExitButton.Size = new Size(0, 0);
             ExitButton.TabIndex = 0;
@@ -116,7 +117,7 @@
             // EnterButton
             // 
             EnterButton.BackColor = Color.Transparent;
-            EnterButton.Location = new Point(378, 3);
+            EnterButton.Location = new Point(1, 1);
             EnterButton.Name = "EnterButton";
             EnterButton.Size = new Size(0, 0);
             EnterButton.TabIndex = 0;
@@ -126,31 +127,31 @@
             // PassErrorLabel
             // 
             PassErrorLabel.AutoSize = true;
-            PassErrorLabel.Font = new Font("Segoe UI", 10F);
+            PassErrorLabel.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             PassErrorLabel.ForeColor = Color.Red;
-            PassErrorLabel.Location = new Point(50, 353);
+            PassErrorLabel.Location = new Point(26, 314);
             PassErrorLabel.Name = "PassErrorLabel";
-            PassErrorLabel.Size = new Size(0, 19);
+            PassErrorLabel.Size = new Size(0, 15);
             PassErrorLabel.TabIndex = 3;
             // 
             // UserErrorLabel
             // 
             UserErrorLabel.AutoSize = true;
-            UserErrorLabel.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            UserErrorLabel.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             UserErrorLabel.ForeColor = Color.Red;
-            UserErrorLabel.Location = new Point(47, 278);
+            UserErrorLabel.Location = new Point(26, 239);
             UserErrorLabel.Name = "UserErrorLabel";
-            UserErrorLabel.Size = new Size(0, 17);
+            UserErrorLabel.Size = new Size(0, 15);
             UserErrorLabel.TabIndex = 4;
             // 
             // ErrorLabel
             // 
             ErrorLabel.AutoSize = true;
-            ErrorLabel.Font = new Font("Segoe UI", 10F);
+            ErrorLabel.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             ErrorLabel.ForeColor = Color.Red;
-            ErrorLabel.Location = new Point(73, 423);
+            ErrorLabel.Location = new Point(30, 373);
             ErrorLabel.Name = "ErrorLabel";
-            ErrorLabel.Size = new Size(0, 19);
+            ErrorLabel.Size = new Size(0, 15);
             ErrorLabel.TabIndex = 5;
             // 
             // PasswordLabel
@@ -158,7 +159,7 @@
             PasswordLabel.AutoSize = true;
             PasswordLabel.BackColor = Color.Transparent;
             PasswordLabel.ForeColor = Color.White;
-            PasswordLabel.Location = new Point(47, 302);
+            PasswordLabel.Location = new Point(23, 263);
             PasswordLabel.Name = "PasswordLabel";
             PasswordLabel.Size = new Size(57, 15);
             PasswordLabel.TabIndex = 6;
@@ -169,7 +170,7 @@
             UsernameLabel.AutoSize = true;
             UsernameLabel.BackColor = Color.Transparent;
             UsernameLabel.ForeColor = Color.White;
-            UsernameLabel.Location = new Point(44, 227);
+            UsernameLabel.Location = new Point(23, 188);
             UsernameLabel.Name = "UsernameLabel";
             UsernameLabel.Size = new Size(60, 15);
             UsernameLabel.TabIndex = 7;
@@ -180,9 +181,9 @@
             AcceptButton = EnterButton;
             AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
-            BackColor = Color.FromArgb(0, 26, 44);
+            BackColor = Color.FromArgb(25, 34, 59);
             CancelButton = ExitButton;
-            ClientSize = new Size(400, 500);
+            ClientSize = new Size(289, 440);
             ControlBox = false;
             Controls.Add(UsernameLabel);
             Controls.Add(PasswordLabel);
@@ -198,6 +199,7 @@
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            Load += Login_Load;
             UsernamePanel.ResumeLayout(false);
             UsernamePanel.PerformLayout();
             PasswordPanel.ResumeLayout(false);

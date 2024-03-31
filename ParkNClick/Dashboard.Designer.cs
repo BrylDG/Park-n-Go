@@ -58,7 +58,7 @@
             ParkinPanel.BackColor = Color.FromArgb(38, 52, 88);
             ParkinPanel.Location = new Point(166, 129);
             ParkinPanel.Name = "ParkinPanel";
-            ParkinPanel.Size = new Size(390, 141);
+            ParkinPanel.Size = new Size(164, 299);
             ParkinPanel.TabIndex = 2;
             ParkinPanel.Paint += ParkinPanel_Paint;
             // 
@@ -73,9 +73,9 @@
             // DatabasePanel
             // 
             DatabasePanel.BackColor = Color.FromArgb(38, 52, 88);
-            DatabasePanel.Location = new Point(166, 276);
+            DatabasePanel.Location = new Point(336, 129);
             DatabasePanel.Name = "DatabasePanel";
-            DatabasePanel.Size = new Size(390, 152);
+            DatabasePanel.Size = new Size(220, 299);
             DatabasePanel.TabIndex = 3;
             DatabasePanel.Paint += DatabasePanel_Paint;
             // 
@@ -109,7 +109,6 @@
             Controls.Add(SidePanel);
             Controls.Add(ParkinPanel);
             FormBorderStyle = FormBorderStyle.None;
-            MaximizeBox = false;
             Name = "Dashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Dashboard";
