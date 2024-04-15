@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             UsernameBox = new TextBox();
             LoginButton = new Button();
             UsernamePanel = new Panel();
@@ -40,16 +41,18 @@
             ErrorLabel = new Label();
             PasswordLabel = new Label();
             UsernameLabel = new Label();
+            pictureBox1 = new PictureBox();
             UsernamePanel.SuspendLayout();
             PasswordPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // UsernameBox
             // 
-            UsernameBox.BackColor = Color.FromArgb(51, 68, 113);
+            UsernameBox.BackColor = Color.White;
             UsernameBox.BorderStyle = BorderStyle.None;
             UsernameBox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            UsernameBox.ForeColor = Color.White;
+            UsernameBox.ForeColor = Color.Black;
             UsernameBox.Location = new Point(3, 3);
             UsernameBox.Name = "UsernameBox";
             UsernameBox.Size = new Size(231, 22);
@@ -72,7 +75,7 @@
             // 
             // UsernamePanel
             // 
-            UsernamePanel.BackColor = Color.FromArgb(51, 68, 113);
+            UsernamePanel.BackColor = Color.White;
             UsernamePanel.BorderStyle = BorderStyle.FixedSingle;
             UsernamePanel.Controls.Add(UsernameBox);
             UsernamePanel.ForeColor = Color.NavajoWhite;
@@ -83,7 +86,7 @@
             // 
             // PasswordPanel
             // 
-            PasswordPanel.BackColor = Color.FromArgb(51, 68, 113);
+            PasswordPanel.BackColor = Color.White;
             PasswordPanel.BorderStyle = BorderStyle.FixedSingle;
             PasswordPanel.Controls.Add(PasswordBox);
             PasswordPanel.ForeColor = Color.NavajoWhite;
@@ -94,10 +97,10 @@
             // 
             // PasswordBox
             // 
-            PasswordBox.BackColor = Color.FromArgb(51, 68, 113);
+            PasswordBox.BackColor = Color.White;
             PasswordBox.BorderStyle = BorderStyle.None;
             PasswordBox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            PasswordBox.ForeColor = Color.White;
+            PasswordBox.ForeColor = Color.Black;
             PasswordBox.Location = new Point(3, 3);
             PasswordBox.Name = "PasswordBox";
             PasswordBox.PasswordChar = '•';
@@ -176,15 +179,26 @@
             UsernameLabel.TabIndex = 7;
             UsernameLabel.Text = "Username";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
+            pictureBox1.Location = new Point(83, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(128, 124);
+            pictureBox1.TabIndex = 8;
+            pictureBox1.TabStop = false;
+            // 
             // Login
             // 
             AcceptButton = EnterButton;
             AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
-            BackColor = Color.FromArgb(25, 34, 59);
+            BackColor = Color.DarkSlateGray;
             CancelButton = ExitButton;
             ClientSize = new Size(289, 440);
             ControlBox = false;
+            Controls.Add(pictureBox1);
             Controls.Add(UsernameLabel);
             Controls.Add(PasswordLabel);
             Controls.Add(ErrorLabel);
@@ -204,6 +218,7 @@
             UsernamePanel.PerformLayout();
             PasswordPanel.ResumeLayout(false);
             PasswordPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -222,5 +237,6 @@
         private Label ErrorLabel;
         private Label PasswordLabel;
         private Label UsernameLabel;
+        private PictureBox pictureBox1;
     }
 }
