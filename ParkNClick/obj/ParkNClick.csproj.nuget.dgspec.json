@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bryl\\Downloads\\Park-n-Go-main\\Park-n-Go-main\\ParkNClick\\ParkNClick.csproj": {}
+    "C:\\Users\\Bryl\\Downloads\\dasdas\\ParkNClick\\ParkNClick.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bryl\\Downloads\\Park-n-Go-main\\Park-n-Go-main\\ParkNClick\\ParkNClick.csproj": {
+    "C:\\Users\\Bryl\\Downloads\\dasdas\\ParkNClick\\ParkNClick.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bryl\\Downloads\\Park-n-Go-main\\Park-n-Go-main\\ParkNClick\\ParkNClick.csproj",
+        "projectUniqueName": "C:\\Users\\Bryl\\Downloads\\dasdas\\ParkNClick\\ParkNClick.csproj",
         "projectName": "ParkNClick",
-        "projectPath": "C:\\Users\\Bryl\\Downloads\\Park-n-Go-main\\Park-n-Go-main\\ParkNClick\\ParkNClick.csproj",
+        "projectPath": "C:\\Users\\Bryl\\Downloads\\dasdas\\ParkNClick\\ParkNClick.csproj",
         "packagesPath": "C:\\Users\\Bryl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bryl\\Downloads\\Park-n-Go-main\\Park-n-Go-main\\ParkNClick\\obj\\",
+        "outputPath": "C:\\Users\\Bryl\\Downloads\\dasdas\\ParkNClick\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bryl\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
