@@ -4,20 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParkNClick
+namespace WinFormsApp1
 {
     internal class VehicleData
     {
-        public string type { get; set; }
-        public string brand { get; set; }
-        public string plateNo { get; set; }
-        public string timeIn { get; set; }
-        public VehicleData(string type, string brand, string plateNo, string timeIn)
+        public string PlateNumber { get; set; }
+        public string VehicleType { get; set; }
+        public string VehicleBrand { get; set; }
+
+        public VehicleData() 
         {
-            this.type = type;
-            this.brand = brand;
-            this.plateNo = plateNo;
-            this.timeIn = timeIn;
+            
         }
     }
+
+    
 }
