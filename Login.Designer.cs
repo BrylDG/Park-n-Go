@@ -42,6 +42,9 @@
             PasswordLabel = new Label();
             UsernameLabel = new Label();
             pictureBox1 = new PictureBox();
+            checkBox1 = new CheckBox();
+            label1 = new Label();
+            label2 = new Label();
             UsernamePanel.SuspendLayout();
             PasswordPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -65,7 +68,7 @@
             LoginButton.FlatStyle = FlatStyle.Flat;
             LoginButton.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             LoginButton.ForeColor = Color.Black;
-            LoginButton.Location = new Point(119, 347);
+            LoginButton.Location = new Point(115, 328);
             LoginButton.Name = "LoginButton";
             LoginButton.Size = new Size(56, 21);
             LoginButton.TabIndex = 2;
@@ -79,7 +82,7 @@
             UsernamePanel.BorderStyle = BorderStyle.FixedSingle;
             UsernamePanel.Controls.Add(UsernameBox);
             UsernamePanel.ForeColor = Color.NavajoWhite;
-            UsernamePanel.Location = new Point(26, 206);
+            UsernamePanel.Location = new Point(26, 175);
             UsernamePanel.Name = "UsernamePanel";
             UsernamePanel.Size = new Size(239, 30);
             UsernamePanel.TabIndex = 0;
@@ -90,7 +93,7 @@
             PasswordPanel.BorderStyle = BorderStyle.FixedSingle;
             PasswordPanel.Controls.Add(PasswordBox);
             PasswordPanel.ForeColor = Color.NavajoWhite;
-            PasswordPanel.Location = new Point(26, 281);
+            PasswordPanel.Location = new Point(26, 241);
             PasswordPanel.Name = "PasswordPanel";
             PasswordPanel.Size = new Size(239, 30);
             PasswordPanel.TabIndex = 1;
@@ -132,7 +135,7 @@
             PassErrorLabel.AutoSize = true;
             PassErrorLabel.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             PassErrorLabel.ForeColor = Color.Red;
-            PassErrorLabel.Location = new Point(26, 314);
+            PassErrorLabel.Location = new Point(26, 275);
             PassErrorLabel.Name = "PassErrorLabel";
             PassErrorLabel.Size = new Size(0, 15);
             PassErrorLabel.TabIndex = 3;
@@ -142,7 +145,7 @@
             UserErrorLabel.AutoSize = true;
             UserErrorLabel.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             UserErrorLabel.ForeColor = Color.Red;
-            UserErrorLabel.Location = new Point(26, 239);
+            UserErrorLabel.Location = new Point(26, 213);
             UserErrorLabel.Name = "UserErrorLabel";
             UserErrorLabel.Size = new Size(0, 15);
             UserErrorLabel.TabIndex = 4;
@@ -162,7 +165,7 @@
             PasswordLabel.AutoSize = true;
             PasswordLabel.BackColor = Color.Transparent;
             PasswordLabel.ForeColor = Color.White;
-            PasswordLabel.Location = new Point(23, 263);
+            PasswordLabel.Location = new Point(23, 223);
             PasswordLabel.Name = "PasswordLabel";
             PasswordLabel.Size = new Size(57, 15);
             PasswordLabel.TabIndex = 6;
@@ -173,7 +176,7 @@
             UsernameLabel.AutoSize = true;
             UsernameLabel.BackColor = Color.Transparent;
             UsernameLabel.ForeColor = Color.White;
-            UsernameLabel.Location = new Point(23, 188);
+            UsernameLabel.Location = new Point(23, 157);
             UsernameLabel.Name = "UsernameLabel";
             UsernameLabel.Size = new Size(60, 15);
             UsernameLabel.TabIndex = 7;
@@ -184,11 +187,47 @@
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Location = new Point(90, 31);
+            pictureBox1.Location = new Point(94, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(112, 101);
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.BackColor = Color.Transparent;
+            checkBox1.ForeColor = SystemColors.ButtonHighlight;
+            checkBox1.Location = new Point(26, 284);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(108, 19);
+            checkBox1.TabIndex = 9;
+            checkBox1.Text = "Show Password";
+            checkBox1.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.ButtonHighlight;
+            label1.Location = new Point(84, 379);
+            label1.Name = "label1";
+            label1.Size = new Size(134, 15);
+            label1.TabIndex = 10;
+            label1.Text = "Don't have an account?";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Arial Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = SystemColors.ButtonHighlight;
+            label2.Location = new Point(93, 398);
+            label2.Name = "label2";
+            label2.Size = new Size(109, 17);
+            label2.TabIndex = 11;
+            label2.Text = "Create Account";
             // 
             // Login
             // 
@@ -201,6 +240,9 @@
             CancelButton = ExitButton;
             ClientSize = new Size(289, 440);
             ControlBox = false;
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(checkBox1);
             Controls.Add(pictureBox1);
             Controls.Add(UsernameLabel);
             Controls.Add(PasswordLabel);
@@ -241,5 +283,8 @@
         private Label PasswordLabel;
         private Label UsernameLabel;
         private PictureBox pictureBox1;
+        private CheckBox checkBox1;
+        private Label label1;
+        private Label label2;
     }
 }

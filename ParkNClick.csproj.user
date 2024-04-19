@@ -7,7 +7,16 @@
     <Compile Update="DashboardMenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="DetailPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="EditPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Registration.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
